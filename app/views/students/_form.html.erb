@@ -8,6 +8,6 @@
     <%= f.label :name %>
     <%= f.text_field :name %><br>
     <%= f.label :mod %>
-    <%= f.number_field :mod %>
+    <%= f.number_field :mod, max: 5, min: 1%><br>
     <%= f.submit %>
 <% end %>
